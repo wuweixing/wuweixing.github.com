@@ -1,0 +1,11 @@
+
+* work
+{: toc .nav .nav-list}
+
+<script type="text/javascript">
+$('#markdown-toc').before('<h2>目录</h2></hr>');
+$('#markdown-toc').children('li')
+  .children('a').css('font-weight', 'bold').end()
+  .children('ul').addClass('nav nav-pills');
+$('#markdown-toc').after('<hr/>');
+</script>
